@@ -11,8 +11,8 @@ import com.customer.desk.entity.CustomerRating;
 
 //@FeignClient(name = "customer-rating", url = "http://localhost:8100")
 @RibbonClient(name = "customer-rating")
-//@FeignClient(name = "customer-rating")
-@FeignClient(name= "zuul-api-gateway-server")
+@FeignClient(name = "customer-rating")
+//@FeignClient(name= "zuul-api-gateway-server")
 public interface CustomerRatingServiceProxy {
 
 	//@GetMapping("/customer/{Id}")
